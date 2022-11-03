@@ -1,0 +1,27 @@
+.common_variables {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+}
+
+.common_variables .enter_panel {
+  height: 200px;
+  border: 1px solid blue;
+}
+
+.common_variables .enter_panel > div {
+  height: 50px;
+}
+
+.common_variables .results_panel > div {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.vidriadzhennia_panel {
+  border: 1px solid black;
+}
+/*# sourceMappingURL=MainPage.module.css.map */

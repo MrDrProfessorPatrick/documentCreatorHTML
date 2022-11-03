@@ -1,0 +1,106 @@
+.mainDiv{
+  display: flex;
+  height: 100vh;
+    .left_column{
+        width: 50vw;
+        height: 100%;
+        padding: 20px 20px 50px 20px;
+        font-family: TimesNewRoman;
+    
+    }
+        .title{
+          display: flex;
+          justify-content: space-around;
+
+          .title_left{
+            .gerb{
+                margin-left: 57px;
+            }
+            .ministerstvo_oboroni{
+                font-weight: bold;   
+            }
+            .title_ukraini{
+                text-align: center;
+                font-weight: bold;
+            }
+            .viyskova_chastina{
+                text-align: center;
+            }
+            .fours_row{
+                text-align: center;
+            }
+            .fifth_row{
+                text-align: center;
+            }
+            .number_city{
+                margin-top:10px;
+                margin-left: 30px;
+            }
+          }
+
+          .title_right{
+            margin-top:75px
+          }
+        }
+        .vidano_section{
+            display: flex;
+            width: 100%;
+            margin-top:75px;
+            .vidano_by_container{
+                text-align: center;
+                width: 100%; 
+            }
+            .vidano_bottom{
+                font-size: 12px;
+                border-top:1px solid black;
+            }
+          }
+
+          .vidriadzheno_do_section{
+            display: flex;
+           
+            .vidriadzheno_do{
+                flex-grow: 1;
+            }
+            .vidriadzheno_do_right_container{
+                text-align: center;
+                flex-grow: 3;
+            }
+            .bottom{
+                font-size: 12px;
+                border-top:1px solid black;
+            }
+          }
+          .after_termin_vidriadshennia{
+            text-align: center;
+            margin: 0;
+            padding: 0;
+          }
+          .description_after_termin_vidriadshennia{
+            font-size: 12px;
+            text-align: center;
+            border-top:1px solid black;
+          }
+          .pidstava_vidriadzennia{
+            text-indent: 30px;
+          }
+          .diysno_vrazi{
+            margin-top: 40px;
+          }
+          .textBeforeSign{
+            text-align: center;
+            margin-top: 30px;
+          }
+          .posada_zvannya{
+            font-size: 12px;
+            text-align: center;
+            border-top:1px solid black;
+          }
+
+    .right_column{
+        font-family: TimesNewRoman;
+        width: 50vw;
+        height: 100%;
+        padding: 20px 20px 50px 20px;
+    }
+}
