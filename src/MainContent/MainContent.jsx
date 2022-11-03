@@ -12,7 +12,8 @@ const [zvannia, setZvannia] = useState('');
 const [vidriadzhennoDo, setVidriadzhennoDo] = useState('')
   return (
     <div className={classes.MainContent}>
-        <Routes>
+      MAIN CONTENNNNNNNNNNNNTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+        {/* <Routes>
             <Route path='/' 
             element={<MainPage setFullName={setFullName} 
             setFullNameChanged={setFullNameChanged} 
@@ -33,7 +34,7 @@ const [vidriadzhennoDo, setVidriadzhennoDo] = useState('')
             vidriadzhennoDo={vidriadzhennoDo} />}>
                 
             </Route>
-        </Routes>
+        </Routes> */}
 
     </div>
   )
